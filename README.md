@@ -4,6 +4,11 @@
 
 This Django-based AI healthcare solution seamlessly integrates a TDEE calculator, diet analysis, and disease prediction.
 
+### Live Demonstration
+
+https://github.com/itheaks/Eagle_amuhacks3.0/assets/134759689/3016a5b9-9c47-4547-ad05-b15958a7f546
+
+
 ### Problem Statement
 The problem is the fragmented nature of health management today due to scattered information and the lack of a unified platform. This affects healthcare delivery, exacerbates disparities, and hampers individuals' ability to proactively manage their health. Addressing this issue is crucial for improving healthcare outcomes, reducing disparities, and meeting the growing demand for holistic health solutions in the market.
 
