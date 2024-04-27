@@ -20,7 +20,7 @@
             </ul>
           </li>
 
-          <li><a class="nav-link" href="#">Contact</a></li>
+          <li><a class="nav-link" href="{% url 'utils-contact-us' %}">Contact</a></li>
           {% if request.user.is_authenticated %}
             {% include 'base/_details/profile_on_login.html' %}
           {% else %}
