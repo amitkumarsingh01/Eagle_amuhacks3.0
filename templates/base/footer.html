@@ -18,7 +18,7 @@
           <h4>Useful Links</h4>
           <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="">About us</a></li>
+            <li><a href="#Services">About us</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="{% url 'utils-terms-conds' %}">Terms of service</a></li>
             <li><a href="{% url 'utils-contact-us' %}">Contact Us</a></li>
@@ -28,8 +28,11 @@
         <div class="col-lg-2 col-6 footer-links">
           <h4>Collaborate with Us</h4>
           <ul>
-            <li><a href="">Advertise with Us</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="{% url 'utils-contact-us' %}">Advertise with Us</a></li>
+            <li><a href="{% url 'predict-diseases' %}">Know Your Disease</a></li>
+            <li><a href="{% url 'main-nutrition' %}">Nutrition</a></li>
+            <li><a href="{% url 'predict-home' %}">Predict</a></li>
+            <li><a href="{% url 'main-blog' %}">Blog</a></li>
           </ul>
         </div>
 
