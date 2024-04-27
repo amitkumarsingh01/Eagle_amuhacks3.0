@@ -9,14 +9,14 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li class="nav-link"><a href=""><span>Blog</span></a></li>
+          <li class="nav-link"><a href="{% url 'main-blog' %}"><span>Blog</span></a></li>
 
           <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="">Tdee</a></li>
-              <li><a href="">Nutrition</a></li>
-              <li><a href="">Know Your Disease</a></li>
-              <li><a href="">Scan Prescription</a></li>
+              <li><a href="{% url 'main-tdee' %}">Tdee</a></li>
+              <li><a href="{% url 'main-nutrition' %}">Nutrition</a></li>
+              <li><a href="#">Know Your Disease</a></li>
+              <li><a href="{% url 'main-med' %}">Scan Prescription</a></li>
             </ul>
           </li>
 

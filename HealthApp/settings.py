@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     # Custom Apps
     'accounts',
     'utils',
+    'dashboard',
 ]
 
 SOCIALACCOUNT_PROVIDERS = {
@@ -157,3 +158,7 @@ DEFAULT_FROM_EMAIL = config('EMAIL_FROM_EMAIL')
 
 # Custom Auth model
 AUTH_USER_MODEL="accounts.CustomUser"
+
+NEWS_API = config('NEWS_API')
+
+GOOGLE_API_KEY = config('GOOGLE_API_KEY')
